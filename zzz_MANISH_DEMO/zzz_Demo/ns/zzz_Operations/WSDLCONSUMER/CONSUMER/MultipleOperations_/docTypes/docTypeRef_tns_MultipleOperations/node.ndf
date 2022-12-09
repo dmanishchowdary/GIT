@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">zzz_Operations.WSDLCONSUMER.CONSUMER.MultipleOperations_.docTypes:docTypeRef_tns_MultipleOperations</value>
+    <value name="node_pkg">zzz_Demo</value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="schemaDomain">e31d77f9fd7b461f9f1ff7dbb248b1a6</value>
+    <value name="docTypeDomain">77eb23be58ea46079ba7611cffa32551</value>
+    <value name="originURI">http://Manish-PC:5555/ws/zzz_Operations.Services:MultipleOperations_WSD?WSDL</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">Input</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">zzz_Operations.WSDLCONSUMER.CONSUMER.MultipleOperations_.docTypes:docTypeRef_tns_Input</value>
+      </record>
+    </array>
+    <record name="schemaType" javaclass="com.wm.util.Values">
+      <value name="xmlns">http://Manish-PC/zzz_Operations.Services</value>
+      <value name="ncName">MultipleOperations</value>
+    </record>
+    <value name="schemaRegistered">true</value>
+    <value name="modifiable">false</value>
+    <value name="parentWsd">zzz_Operations.WSDLCONSUMER.CONSUMER:MultipleOperations</value>
+  </record>
+</Values>
